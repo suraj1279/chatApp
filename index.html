@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Schat app</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <section class="chat__section">
+      <div class="brand">
+        <img height="40" src="/call.png" alt="" />
+        <h1>Schat</h1>
+      </div>
+      <div class="message__area"></div>
+      <div class="message__input-container">
+        <div class="input__container">
+            <div class="message__input-container">
+                <div class="textarea-container">
+                    <textarea id="textarea" placeholder="Write a message..."></textarea>
+                </div>
+                <div class="send__button-container">
+                    <button id="btn" class="send__button"><h4>Send</h4></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+  </body>
+</html>
